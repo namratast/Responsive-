@@ -1,0 +1,214 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  /* colors */
+  --primary: teal;
+  --white: #fdfdfd;
+  --black: #030303;
+
+  /* padding/margin */
+  --small: 1rem;
+  --large: 1.8rem;
+}
+
+/*Mobile*/
+
+@media (min-width:0px) and (max-width:500px){
+body {
+  font-size: 1.4rem;
+  color: var(--primary);
+  font-family: monospace;
+}
+}
+
+
+@media (min-width:0px) and (max-width:500px){
+li{
+  background-color: var(--black);
+  text-align: center;
+  color: var(--white);
+  border: none;
+  margin: 0 4px ;
+}
+}
+
+
+@media (min-width:0px) and (max-width:500px){
+h2{
+  text-align: justify;
+  margin: 0 80px 0 80px;
+  font-size: 1.6rem;
+  padding: 10px ;
+}
+}
+
+
+@media (min-width:0px) and (max-width:500px){
+img{
+  width:300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  }
+}
+
+
+@media (min-width:0px) and (max-width:500px){
+p{
+  margin: 0 90px 0 90px;
+  font-size: 1.2rem;
+}
+}
+
+@media (min-width:0px) and (max-width:500px){
+fieldset{
+  width: 350px;
+  margin: 1rem;
+  background-color: var(--black);
+  margin: 7px 90px 0 90px;
+}
+}
+
+@media (min-width:0px) and (max-width:500px){
+  .signup{
+    background-color: var(--black);
+    color: var(--white);
+    margin-top: 1rem;
+    border: none;
+  }
+}
+
+@media (min-width:0px) and (max-width:500px){
+  h3{
+    padding-top: 12px;
+    padding-left: 18px;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width:0px) and (max-width:500px){
+   #name, #email{
+    padding-top: 12px;
+    padding-left: 18px;
+    font-size: 1rem;
+   }
+}
+@media (min-width:0px) and (max-width:500px){
+  input{
+  margin-left: 16px;
+  padding-right: 40%;
+  }
+}
+
+@media (min-width:0px) and (max-width:500px){
+  .signup{
+    padding-left: 20px;
+    font-size: 1rem;
+  }
+}
+
+/*Desktop*/
+
+@media (min-width:769px) and (max-width:1279px){
+  body {
+    font-size: 1.4rem;
+    color: var(--primary);
+    font-family: monospace;
+  }
+  }
+  
+  
+@media (min-width:769px) and (max-width:1279px){
+  li{
+    background-color: var(--black);
+    text-align: center;
+    color: var(--white);
+    border: none;
+    margin: 0 4px ;
+  }
+  }
+  
+  
+@media (min-width:769px) and (max-width:1279px){
+  h2{
+    text-align: justify;
+    margin: 0 80px 0 80px;
+    font-size: 1.6rem;
+    padding: 10px ;
+  }
+  }
+  
+  
+  @media (min-width:769px) and (max-width:1279px){
+  img{
+    width:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+  }
+  
+  
+  @media (min-width:769px) and (max-width:1279px){
+  p{
+    margin: 0 90px 0 90px;
+    font-size: 1.2rem;
+  }
+  }
+  
+  @media (min-width:769px) and (max-width:1279px){
+  fieldset{
+    width: 350px;
+    margin: 1rem;
+    background-color: var(--black);
+    margin: 7px 90px 0 90px;
+  }
+  }
+  
+  @media (min-width:769px) and (max-width:1279px){
+    .signup{
+      background-color: var(--black);
+      color: var(--white);
+      margin-top: 1rem;
+      border: none;
+    }
+  }
+  
+  @media (min-width:769px) and (max-width:1279px){
+    h3{
+      padding-top: 12px;
+      padding-left: 18px;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width:769px) and (max-width:1279px){
+     #name, #email{
+      padding-top: 12px;
+      padding-left: 18px;
+      font-size: 1rem;
+     }
+  }
+  @media (min-width:769px) and (max-width:1279px){
+    input{
+    margin-left: 16px;
+    padding-right: 40%;
+    }
+  }
+  
+  @media (min-width:769px) and (max-width:1279px){
+    .signup{
+      padding-left: 20px;
+      font-size: 1rem;
+    }
+  }
+  
